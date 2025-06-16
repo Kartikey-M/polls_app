@@ -1,0 +1,26 @@
+# .gitignore
+
+# Ignore virtual environment folder
+myenv/
+env/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Django specific
+*.sqlite3
+*.log
+db.sqlite3
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Secret files
+.env
